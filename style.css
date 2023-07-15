@@ -1,0 +1,179 @@
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-color: gray;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+    color: white;
+}   
+.h1:hover{
+    color: blue;
+}
+.h2:hover{
+    color: blue;
+}
+.h3:hover{
+    color: blue;
+}
+.h4:hover{
+    color: blue;
+}
+.banner{
+    height: 100vh;
+    background-image: url("Images/background.jpg"),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    backgroeund-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+.Digital{
+    color: red;
+}
+.title{
+    font-size: 20px;
+    color: white;
+}
+.description{
+   
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    padding: 12px 20px;
+   border: none;
+   
+}
+.bg-primary{
+    color: white;
+    cursor: pointer;
+    background-color: red;
+
+}
+.service{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    height: 100vh;
+    background-image: url("Images/footer-bg.png"),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    backgroeund-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.bar{
+    width: 70px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+   background-color: white;
+   color: black;
+   padding: 10px;
+   border-radius: 5px;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.description{
+    margin: 0px;
+    width: 50%;
+}
+.first-box{
+    display: flex;
+    gap: 3px;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+.image{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author{
+    display: flex;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid red;
+    padding-right: 20px;
+}
+.button{
+    margin-left: 10px;
+}
+.phone{
+    width: 70px;
+}
+.phone-call{
+    display: flex;
+}
+.appoinment{
+display: flex;
+align-items: center;
+gap: 10px;
+width: 60%;
+margin: auto    ;
+background-color: rgb(215, 19, 19);
+margin-top: -20px;
+border-radius: 10px;
+}
+.button{
+    width: 10px;    
+    height: 10px;
+    border-radius: 4px;
+    padding: 3px;
+
+}
+.blog{
+    text-align: center;
+}
+.come{
+    color: red;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 4px grey ;
+}
+.blog-image{
+    width: 100%;
+}
+.title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    width: 80%;
+    margin-left: 50px;
+   
+}
